@@ -1,0 +1,44 @@
+ body{
+        background-color: aqua;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .tittlee{
+        font-size: 30px;
+        font-weight: bold;
+        color: darkmagenta;
+    }
+    .todolist-div,
+    .matter{
+        display: grid;
+        grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    }
+    .todo-list,
+    .todo-date{
+        background-color: transparent;
+        border-color: rgb(81, 16, 16);
+        font-size: 15px;
+        padding:6px;
+        cursor: pointer;
+    }
+    .matter{
+        margin-top: 10px;
+        font-size: 20px;
+    }   
+     .delete-button{
+        background-color: red;
+        font-size: 15px;
+        padding:6px;
+        border:none;
+        cursor: pointer;
+    }
+    .add-button{
+        padding: 5px;
+        font-size: 15px;
+        background-color: black;
+        color: rgb(237, 242, 242);
+        border: none;
+        cursor:pointer;
+    }
